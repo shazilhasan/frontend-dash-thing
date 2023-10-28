@@ -60,6 +60,6 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use(erros.notfound);
 app.use(erros.serverError);
 
-app.listen(3000, function() {
-    console.log('Express server listening on port 3000');
+app.listen(8080, function() {
+    console.log('Express server listening on port 8080');
 });
